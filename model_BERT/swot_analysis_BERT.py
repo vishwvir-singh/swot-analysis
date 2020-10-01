@@ -160,8 +160,7 @@ def main(train_model = False):
     model.load_weights('swot_analysis_bert_weights').expect_partial()
 
     predict_model(model, test_dataset, test_labels)
-    print("Deletng Model")
-    del model
+    
     print ("DONE")
 
 
