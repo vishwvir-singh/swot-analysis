@@ -157,7 +157,7 @@ def main(train_model = False):
     test_dataset = tokenize_dataset(test_texts, test_labels, tokenizer, max_len)
 
     model = get_model(n_classes,max_len)
-    model.load_weights('swot_analysis_bert_weights')
+    model.load_weights('swot_analysis_bert_weights').expect_partial()
 
     predict_model(model, test_dataset, test_labels)
     print("Deletng Model")
