@@ -1,2 +1,2 @@
 # swot-analysis
-Select relevant sentences from paragraph and classify in 4 class: Strength, Weakness, Opportunity and Threat. 
+To classify any Company's Annual report sentences in 5 class: Strength, Weakness, Opportunity, Threat, Irrelevent. 
