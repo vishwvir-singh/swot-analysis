@@ -1,6 +1,6 @@
 # swot-analysis
 
-Using following pretrained models to train highly accurate SWOT ANALYSIS classifer -
+Used following pretrained models to train highly accurate SWOT ANALYSIS classifer -
   1. 'distilbert',
   2. 'bert',
   3. 'electra',
