@@ -1,2 +1,11 @@
 # swot-analysis
-To classify any Company's Annual report sentences in 5 class: Strength, Weakness, Opportunity, Threat, Irrelevent. 
+
+Using following pretrained models to train highly accurate SWOT ANALYSIS classifer -
+  1. 'distilbert',
+  2. 'bert',
+  3. 'electra',
+  4. 'roberta'
+ 
+These trained classifer can classify input sentence into following classes - Strength, Weakness, Opportunity, Threat and Irrelevent.
+
+
